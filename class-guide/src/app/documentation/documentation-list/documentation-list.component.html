@@ -1,0 +1,9 @@
+<div class="list">
+  <div *ngFor="let item of items" class="item">
+    <img src="{{item.imgSRC}}" class="logo-image" />
+    <div>
+      <button mat-raised-button color="primary"><a href="{{item.href}}">{{item.title}}</a></button>
+    </div>
+  </div>
+
+</div>
